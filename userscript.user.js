@@ -16,7 +16,7 @@ if (window.top !== window.self) {
                 .shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://cdn.mirai.gg/tmp/dotted-place-template.png";
+            i.src = "https://github.com/retstonemaster/placeDE/raw/main/template-placeDE.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;opacity: 0.5;";
             console.log(i);
             return i;
