@@ -17,7 +17,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             i.src = "https://cdn.mirai.gg/tmp/dotted-place-template.png";
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;opacity: 0.5;";
             console.log(i);
             return i;
         })())
